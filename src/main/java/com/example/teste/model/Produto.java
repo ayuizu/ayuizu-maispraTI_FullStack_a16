@@ -10,7 +10,9 @@ import java.util.UUID;
 @Entity
 public class Produto {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     private String nome;
     private String descricao;
     private double preco;

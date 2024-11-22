@@ -1,5 +1,6 @@
 package com.example.teste.controller;
 
+import com.example.teste.dto.ProdutoDTO;
 import com.example.teste.model.Produto;
 import com.example.teste.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,4 +36,6 @@ public class ProdutoController {
         return ResponseEntity.notFound().build();
 
     }
+
+
 }
